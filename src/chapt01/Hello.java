@@ -4,7 +4,9 @@ public class Hello
 {
 
     public static void main(String[] args){
-        System.out.println("Hello users my!");
+        /*for (String str: args)
+        System.out.printf("Args = %f", str);*/
+        System.out.println("Hello World teatcher branch Alex 3 commit!");
     }
 }
 

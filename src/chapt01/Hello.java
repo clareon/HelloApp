@@ -1,12 +1,14 @@
 package chapt01;
 
+import java.util.Calendar;
+
 public class Hello
 {
 
     public static void main(String[] args){
-        /*for (String str: args)
-        System.out.printf("Args = %f", str);*/
-        System.out.println("Hello World teatcher branch Alex 3 commit!");
+        for (String str: args)
+        System.out.printf("Args = %s", str);
+        /*System.out.println("Hello World teatcher branch Alex 3 commit!" +Calendar.getInstance().getTimeZone() );*/
     }
 }
 

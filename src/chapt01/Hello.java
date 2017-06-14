@@ -12,6 +12,7 @@ public class Hello
         String Passvd = "user";
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
+
         try {
             System.out.println("¬ведите пароль");
             String userPasss = br.readLine();

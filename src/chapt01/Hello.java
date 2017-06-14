@@ -14,16 +14,16 @@ public class Hello
         String Passvd = "user";
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
-        try{
+        try {
             System.out.println("Введите пароль");
             String userPasss = br.readLine();
             if (Passvd.equals(userPasss) ) System.out.println("Пароли совпадают");
             else System.out.println("Пароли не совпадают");
         }
-
-        catch(IOException e){
+        catch (IOException e){
             System.err.print("Ошибка ввода" + e);
         }
+
 
  /*S
         for (String str: args)

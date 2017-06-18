@@ -9,13 +9,13 @@ public class Hello
 {
 
     public static void main(String[] args){
-        String Passvd = "user";
+        /*String Passvd = "user";
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
 
-        try {
+        try {*/
             System.out.println("Введите пароль");
-            String userPasss = br.readLine();
+           /* String userPasss = br.readLine();
             if (Passvd.equals(userPasss) ) System.out.println("Пароли совпадают");
             else System.out.println("Пароли не совпадают");
         }

@@ -8,19 +8,19 @@ public class Hello
 {
 
     public static void main(String[] args){
-        /*String Passvd = "user";
+        String Passvd = "user";
         InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);*/
+        BufferedReader br = new BufferedReader(isr);
 
         try {
-            System.out.println("Enter pass");
+           /* System.out.println("Enter pass");*/
 
-           /* String userPasss = br.readLine();
+            String userPasss = br.readLine();
             if (Passvd.equals(userPasss) ) System.out.println("Пароли совпадают");
             else System.out.println("Пароли не совпадают");
-        */}
-        finally {
-            System.err.println("Error input");
+        }
+        catch (IOException e){
+            System.err.println("Error input" + e.toString());
         }
 
 

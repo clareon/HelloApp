@@ -16,8 +16,8 @@ public class Hello
            /* System.out.println("Enter pass");*/
 
             String userPasss = br.readLine();
-            if (Passvd.equals(userPasss) ) System.out.println("Пароли совпадают");
-            else System.out.println("Пароли не совпадают");
+            if (Passvd.equals(userPasss) ) System.out.println("Pass equals");
+            else System.out.println("Pass dont equals");
         }
         catch (IOException e){
             System.err.println("Error input" + e.toString());
